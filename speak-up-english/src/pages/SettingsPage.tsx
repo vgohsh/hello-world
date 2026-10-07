@@ -54,6 +54,10 @@ export default function SettingsPage() {
             ))}
           </select>
           {tts.voices.length === 0 && <p className="mt-1 text-xs text-muted">No English voices found for this accent yet.</p>}
+          <p className="mt-2 text-xs text-muted">
+            Robotic and novelty voices are hidden. On a Mac, add clearer voices in System Settings → Accessibility → Spoken Content → System voice →
+            Manage Voices (for example "Samantha (Enhanced)" or "Daniel (Enhanced)"), then restart your browser.
+          </p>
         </div>
 
         <div>

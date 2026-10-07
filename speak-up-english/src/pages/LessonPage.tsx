@@ -2,6 +2,7 @@ import { useEffect, useRef, type KeyboardEvent } from 'react'
 import { Link, Navigate, useParams, useSearchParams } from 'react-router-dom'
 import { getLesson, lessons, modules } from '../data/lessons'
 import { useProgress } from '../hooks/useProgress'
+import { stopSpeech } from '../hooks/useSpeechSynthesis'
 import { ArrowLeftIcon, CheckIcon } from '../components/Icons'
 import LearnTab from './lesson/LearnTab'
 import PhrasesTab from './lesson/PhrasesTab'
@@ -25,6 +26,10 @@ export default function LessonPage() {
   useEffect(() => {
     if (lesson && unlocked) visitLesson(lesson.id)
   }, [lesson, unlocked, visitLesson])
+
+  useEffect(() => {
+    stopSpeech()
+  }, [tab])
 
   if (!lesson || !lesson.content || !unlocked) return <Navigate to="/course" replace />
 

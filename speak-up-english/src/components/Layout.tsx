@@ -2,6 +2,7 @@ import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import { BookIcon, ChartIcon, GearIcon, HomeIcon, MoonIcon, SunIcon } from './Icons'
 import { useProgress } from '../hooks/useProgress'
+import { stopSpeech } from '../hooks/useSpeechSynthesis'
 
 const nav = [
   { to: '/', label: 'Home', Icon: HomeIcon, end: true },
@@ -15,6 +16,7 @@ export default function Layout() {
   const { pathname } = useLocation()
   useEffect(() => {
     window.scrollTo(0, 0)
+    stopSpeech()
   }, [pathname])
 
   const linkCls = ({ isActive }: { isActive: boolean }) =>
