@@ -2,7 +2,9 @@
 export function loadJSON<T>(key: string, fallback: T): T {
   try {
     const raw = window.localStorage.getItem(key)
-    return raw ? { ...fallback, ...(JSON.parse(raw) as T) } : fallback
+    if (!raw) return fallback
+    const parsed: unknown = JSON.parse(raw)
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? { ...fallback, ...(parsed as T) } : fallback
   } catch {
     return fallback
   }

@@ -12,6 +12,30 @@
   </head>
   <body>
     <div id="root"></div>
+    <noscript><p style="color:#f4f2ee;font-family:system-ui;padding:24px">Speak Up English needs JavaScript. Please enable it in your browser.</p></noscript>
+    <script>
+      // Startup check: if the app fails before React can show an error, show one here instead of a blank page.
+      (function () {
+        var errors = []
+        function show(reason) {
+          var root = document.getElementById('root')
+          if (!root || root.childElementCount > 0) return
+          root.innerHTML =
+            '<div role="alert" style="max-width:640px;margin:48px auto;padding:0 16px;font-family:system-ui,sans-serif;color:#f4f2ee">' +
+            '<h1 style="font-size:24px">Speak Up English did not start</h1>' +
+            '<p style="color:#a8a49c">Use the latest Chrome or Edge. If you already do, send this message to the developer:</p>' +
+            '<pre style="white-space:pre-wrap;background:#1d1d22;padding:12px;border-radius:8px;font-size:13px"></pre></div>'
+          root.querySelector('pre').textContent = reason + (errors.length ? '\n\n' + errors.join('\n') : '') + '\n\nBrowser: ' + navigator.userAgent
+        }
+        window.addEventListener('error', function (e) {
+          errors.push((e.message || 'Error') + (e.filename ? ' (' + e.filename + ':' + e.lineno + ')' : ''))
+        })
+        window.addEventListener('unhandledrejection', function (e) {
+          errors.push('Unhandled: ' + (e.reason && e.reason.message ? e.reason.message : String(e.reason)))
+        })
+        setTimeout(function () { show('The app did not finish loading within 8 seconds.') }, 8000)
+      })()
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

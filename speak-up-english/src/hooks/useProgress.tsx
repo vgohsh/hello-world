@@ -56,9 +56,31 @@ interface ProgressContextValue {
 
 const ProgressContext = createContext<ProgressContextValue | null>(null)
 
+const isNumArray = (v: unknown): v is number[] => Array.isArray(v) && v.every((x) => typeof x === 'number')
+
+function sanitizeProgress(p: Progress): Progress {
+  return {
+    completed: isNumArray(p.completed) ? p.completed : [],
+    lastLessonId: typeof p.lastLessonId === 'number' ? p.lastLessonId : null,
+    activeDays: Array.isArray(p.activeDays) ? p.activeDays.filter((d) => typeof d === 'string') : [],
+    attempts: Array.isArray(p.attempts) ? p.attempts.filter((a) => a && typeof a.lessonId === 'number' && typeof a.stars === 'number') : [],
+    quizScores: p.quizScores && typeof p.quizScores === 'object' ? p.quizScores : {},
+  }
+}
+
+function sanitizeSettings(s: Settings): Settings {
+  return {
+    accent: s.accent === 'en-GB' ? 'en-GB' : 'en-US',
+    voiceURI: typeof s.voiceURI === 'string' ? s.voiceURI : null,
+    rate: typeof s.rate === 'number' && s.rate >= 0.5 && s.rate <= 2 ? s.rate : defaultSettings.rate,
+    theme: s.theme === 'light' ? 'light' : 'dark',
+    unlockAll: s.unlockAll === true,
+  }
+}
+
 export function ProgressProvider({ children }: { children: ReactNode }) {
-  const [progress, setProgress] = useState<Progress>(() => loadJSON(PROGRESS_KEY, defaultProgress))
-  const [settings, setSettings] = useState<Settings>(() => loadJSON(SETTINGS_KEY, defaultSettings))
+  const [progress, setProgress] = useState<Progress>(() => sanitizeProgress(loadJSON(PROGRESS_KEY, defaultProgress)))
+  const [settings, setSettings] = useState<Settings>(() => sanitizeSettings(loadJSON(SETTINGS_KEY, defaultSettings)))
 
   useEffect(() => saveJSON(PROGRESS_KEY, progress), [progress])
   useEffect(() => {
