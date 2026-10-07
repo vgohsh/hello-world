@@ -1,0 +1,91 @@
+@import 'tailwindcss';
+
+/* Colour tokens: dark is the default, light via [data-theme="light"]. */
+:root {
+  --bg: #0b0b0d;
+  --surface: #151518;
+  --surface-2: #1d1d22;
+  --border: #2a2a31;
+  --text: #f4f2ee;
+  --muted: #a8a49c;
+  --gold: #d4af37;
+  --gold-soft: rgba(212, 175, 55, 0.14);
+  --on-gold: #17130a;
+  --good: #5cc28a;
+  --warn: #e7a446;
+  --bad: #e76f6f;
+  color-scheme: dark;
+}
+:root[data-theme='light'] {
+  --bg: #f7f5f0;
+  --surface: #ffffff;
+  --surface-2: #f0ede6;
+  --border: #e0dbd0;
+  --text: #17161a;
+  --muted: #5f5b53;
+  --gold: #9a7a12;
+  --gold-soft: rgba(154, 122, 18, 0.12);
+  --on-gold: #ffffff;
+  --good: #23824f;
+  --warn: #a8640a;
+  --bad: #b83a3a;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border);
+  --color-ink: var(--text);
+  --color-muted: var(--muted);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-on-gold: var(--on-gold);
+  --color-good: var(--good);
+  --color-warn: var(--warn);
+  --color-bad: var(--bad);
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@utility card {
+  @apply rounded-2xl border border-line bg-surface p-5;
+}
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-4 py-2 text-sm font-medium transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-gold {
+  @apply btn bg-gold text-on-gold hover:brightness-110;
+}
+@utility btn-ghost {
+  @apply btn border border-line bg-surface-2 text-ink hover:border-gold;
+}
+@utility h-serif {
+  @apply font-serif font-semibold tracking-tight;
+}
+@utility eyebrow {
+  @apply text-xs font-semibold tracking-[0.18em] text-gold uppercase;
+}
