@@ -4,7 +4,7 @@ Paste everything below the line into Claude Code, run from an empty project fold
 
 ---
 
-Build a web app that teaches people how to chant Buddhist texts in Tibetan. The users are Chinese- and English-speaking Buddhists who want to chant correctly. Most of them can't read Tibetan script yet. The first and main lesson is the Vajrasattva Hundred-Syllable Mantra (金剛薩埵百字明咒).
+Build a web app that teaches people how to chant Buddhist texts in Tibetan. The users are Chinese- and English-speaking Buddhists who want to chant correctly. Most of them can't read Tibetan script yet. The first and main lesson is the Vajrasattva Hundred-Syllable Mantra (金刚萨埵百字明咒).
 
 ## Key domain fact (read before designing)
 
@@ -13,6 +13,17 @@ The 百字明咒 is **Sanskrit written in Tibetan script**, not the Tibetan lang
 - Users must be able to choose the pronunciation tradition: **Tibetan (default)** or **Sanskrit-restored**.
 - The word meanings are Sanskrit glosses.
 - Design the data model so later texts that are real Tibetan (refuge prayer, Heart Sutra) fit the same structure.
+
+## App language: English (default) and Simplified Chinese
+
+The app serves both English and Chinese speakers. **English is the default language.** Users can switch the whole app to **Simplified Chinese (简体中文)**.
+- Put a visible language toggle (`EN | 中文`) in the header on every page, and the same option in Settings. Switching applies immediately with no page reload, and the choice is saved for the next visit.
+- Always start in English. Don't switch automatically based on browser language.
+- Use react-i18next with two locale files, `src/locales/en.json` and `src/locales/zh-Hans.json`. No UI text hard-coded in components. Add a test that fails if a key exists in one locale file and not the other.
+- The selected language controls **all** text that isn't Tibetan: navigation, buttons, settings, quiz prompts, error messages, notifications, meanings, practice notes, stack explanations, and content titles and descriptions. Content stores both languages (`{ en, zh }`, where `zh` is Simplified Chinese) and shows the one for the selected language.
+- Set `<html lang>` to `en` or `zh-Hans`, and update the page title and PWA manifest name. Tibetan text always keeps `lang="bo"`.
+- The Chinese phonetics line (汉字 transliteration and pinyin) is a separate display option from the app language. It is on by default in Chinese mode and off by default in English mode, and users can change it either way.
+- Use a font stack that renders Simplified Chinese well (for example, Noto Sans SC as a fallback) alongside the Tibetan font, and check that layouts don't break with either language's text length.
 
 ## Tech stack
 
@@ -37,7 +48,7 @@ Text {
 }
 Phrase {
   id, tib, iast, wylie,
-  phon: { tibetan, sanskrit }, phonZh, phonZhuyin?,
+  phon: { tibetan, sanskrit }, phonZh, phonPinyin,                // Chinese phonetics: 汉字 + pinyin
   gloss: { en, zh },                                // phrase meaning
   syllables: Syllable[],
   audio?: { start, end }                            // seconds into Text.audio
@@ -52,7 +63,7 @@ Syllable {
 
 ## Seed content: 百字明咒
 
-Use this as the starting text. **Check it against the attached screenshot and standard sources.** Mark anything uncertain with `// TODO verify` and set `verified: false`. Split the text into syllables yourself, then fill in Wylie, Chinese phonetics (漢字 + 注音) and the stack breakdowns.
+Use this as the starting text. **Check it against the attached screenshot and standard sources.** Mark anything uncertain with `// TODO verify` and set `verified: false`. Split the text into syllables yourself, then fill in Wylie, Chinese phonetics (汉字 + pinyin), Simplified Chinese meanings, and the stack breakdowns. Every English meaning in the table below needs a Simplified Chinese version.
 
 | # | Tibetan | Sanskrit (IAST) | Tibetan chanting phonetics | Meaning |
 |---|---|---|---|---|
@@ -85,8 +96,8 @@ Build in phases. After each phase, run lint, typecheck, unit tests and the app i
 - Text page: phrases shown as cards. Each card has a large Tibetan line and smaller lines for phonetics and meaning.
 - **Tap a syllable** to open a bottom sheet with Tibetan, Wylie, IAST, Tibetan and Sanskrit phonetics, Chinese phonetics, the word it belongs to with its gloss, a stack breakdown if any, and a play button.
 - A display toggle for each line (Tibetan / phonetics / IAST / Chinese phonetics / meaning), saved in settings.
-- Settings: interface language (繁中 / 简中 / English), pronunciation tradition, phonetics script (Latin / 漢字 / 注音), Tibetan font size, and theme.
-- A "Practice context" panel showing practiceNotes, plus a respectful note that traditional practice includes receiving transmission (口傳 / lung) from a qualified teacher.
+- Settings: app language (English / 简体中文), pronunciation tradition, phonetics script (Latin / 汉字 / pinyin), Tibetan font size, and theme.
+- A "Practice context" panel showing practiceNotes, plus a respectful note that traditional practice includes receiving transmission (口传 / lung) from a qualified teacher.
 
 ### Phase 2: Audio and karaoke
 - One `AudioEngine` wrapping HTMLAudioElement, with playbackRate 0.5–1.0 and `preservesPitch`.
@@ -118,14 +129,14 @@ Build in phases. After each phase, run lint, typecheck, unit tests and the app i
 ### Phase 6: Practice tools
 - **Digital mala:** targets of 21, 108 or custom. Tap anywhere, press the spacebar or press a volume key to count. Vibration where supported, and a bell at the end of each round. The screen stays awake.
 - **Accumulation tracker** for each mantra (for example, a goal of 100,000), with a daily history chart, streaks and an export to CSV.
-- **Session flow:** refuge, then mantra × N, then dedication (迴向), with a timer.
+- **Session flow:** refuge, then mantra × N, then dedication (回向), with a timer.
 - Optional reminders through the Notifications API, with clear handling when the user says no.
 
 ## Quality bar
 
 - Accessibility: the Tibetan text has `lang="bo"`, there are aria labels, karaoke can be used with a keyboard, and `prefers-reduced-motion` is respected.
-- Unit tests: content validation (every syllable has the required fields, and timestamps increase), the karaoke time→syllable lookup, the SRS scheduler and the mala counter.
-- Playwright tests: open a lesson, tap a syllable and see the sheet, change the pronunciation tradition and see the phonetics change, count a full 108 round, and load the app offline.
+- Unit tests: content validation (every syllable has the required fields in both `en` and `zh`, and timestamps increase), matching keys in both locale files, the karaoke time→syllable lookup, the SRS scheduler and the mala counter.
+- Playwright tests: the app starts in English, switching to 中文 changes the interface and meanings and is remembered after a reload, open a lesson, tap a syllable and see the sheet, change the pronunciation tradition and see the phonetics change, count a full 108 round, and load the app offline.
 - Lighthouse PWA and accessibility scores of at least 90.
 - A README covering how to run the app, how to add a new text, how to record and align audio, and a **content verification checklist** for a teacher.
 
