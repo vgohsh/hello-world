@@ -82,7 +82,9 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const [progress, setProgress] = useState<Progress>(() => sanitizeProgress(loadJSON(PROGRESS_KEY, defaultProgress)))
   const [settings, setSettings] = useState<Settings>(() => sanitizeSettings(loadJSON(SETTINGS_KEY, defaultSettings)))
 
-  useEffect(() => saveJSON(PROGRESS_KEY, progress), [progress])
+  useEffect(() => {
+    saveJSON(PROGRESS_KEY, progress)
+  }, [progress])
   useEffect(() => {
     saveJSON(SETTINGS_KEY, settings)
     document.documentElement.dataset.theme = settings.theme
