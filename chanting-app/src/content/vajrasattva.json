@@ -1,0 +1,2350 @@
+{
+  "id": "vajrasattva",
+  "title": {
+    "en": "Vajrasattva Hundred-Syllable Mantra",
+    "zh": "金刚萨埵百字明咒",
+    "bo": "རྡོ་རྗེ་སེམས་དཔའི་ཡིག་བརྒྱ།"
+  },
+  "kind": "mantra",
+  "level": 1,
+  "description": {
+    "en": "The most important purification and confession practice in Tibetan Buddhism. Seventeen phrases, about one hundred syllables.",
+    "zh": "藏传佛教中最重要的净化业障与忏悔修法。共十七句，约一百个音节。"
+  },
+  "practiceNotes": {
+    "en": "Vajrasattva practice purifies negative karma and broken commitments. It is done with the Four Opponent Powers: (1) the power of support — taking refuge and generating bodhicitta; (2) the power of regret — sincere regret for harmful actions; (3) the power of resolve — determining not to repeat them; (4) the power of the remedy — reciting the mantra while visualizing Vajrasattva above your head, white and radiant, with purifying nectar flowing down through your body and washing away all negativity and obscurations. At the end, Vajrasattva dissolves into you, and you rest in the recognition that your mind is pure. Traditionally, 21 recitations a day are said to stop negativity from increasing, and 100,000 recitations are part of the foundational practices (ngöndro).",
+    "zh": "金刚萨埵修法净化恶业与毁损的誓言，需具足\"四力\"：（一）依止力——皈依并发菩提心；（二）破恶力——对过去恶业生起真诚的追悔；（三）防护力——决心不再重犯；（四）对治力——持诵此咒，观想金刚萨埵在头顶，身白色光明，甘露从其身流下，注入并充满自身，洗净一切罪障。最后金刚萨埵融入自身，安住于自心本净之中。传统上说，每日念二十一遍可令罪业不再增长；十万遍为加行（前行）修法的一部分。"
+  },
+  "audio": null,
+  "verified": false,
+  "verifyNotes": [
+    "Phrase 8: spelling of siddhiṃ me (མེ vs མྨེ) differs between editions; this follows the reference screenshot.",
+    "Phrase 10: śreyaḥ is spelled ཤྲི་ཡཿ here; some editions use ཤྲེ་ཡཿ or ཤྲཱི་ཡཾ. Tibetan phonetics \"shriyam\" follow common practice texts.",
+    "All Chinese phonetics (汉字/pinyin) are approximations of Tibetan chanting pronunciation and need review by a teacher.",
+    "Word glosses follow common English translations; check them against the lineage commentary you follow."
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "tib": "ཨོཾ་བཛྲ་སཏྭ་ས་མ་ཡ།",
+      "iast": "oṃ vajrasattva samaya",
+      "wylie": "oM badzra sat+wa sa ma ya",
+      "phon": {
+        "tibetan": "om benza sato samaya",
+        "sanskrit": "om vajrasattva samaya"
+      },
+      "phonZh": "嗡 班杂 萨埵 萨玛雅",
+      "phonPinyin": "wēng bān zá sà duǒ sà mǎ yǎ",
+      "gloss": {
+        "en": "Oṃ, Vajrasattva, (honor your) sacred commitment",
+        "zh": "嗡，金刚萨埵，（请守护）三昧耶誓言"
+      },
+      "syllables": [
+        {
+          "tib": "ཨོཾ",
+          "wylie": "oM",
+          "iast": "oṃ",
+          "phon": {
+            "tibetan": "om",
+            "sanskrit": "om"
+          },
+          "phonZh": "嗡",
+          "phonPinyin": "wēng",
+          "stack": {
+            "parts": [
+              "ཨ",
+              "ོ",
+              "ཾ"
+            ],
+            "note": {
+              "en": "a + o vowel + anusvāra (nasal) = \"oṃ\".",
+              "zh": "ཨ + 元音 o + 随韵 ཾ = \"oṃ\"。"
+            }
+          },
+          "word": {
+            "tib": "ཨོཾ",
+            "iast": "oṃ",
+            "gloss": {
+              "en": "Oṃ — sacred seed syllable of enlightened body, speech and mind",
+              "zh": "嗡——诸佛身语意的种子字"
+            }
+          }
+        },
+        {
+          "tib": "བཛྲ",
+          "wylie": "badzra",
+          "iast": "vajra",
+          "phon": {
+            "tibetan": "benza",
+            "sanskrit": "vajra"
+          },
+          "phonZh": "班杂",
+          "phonPinyin": "bān zá",
+          "stack": {
+            "parts": [
+              "བ",
+              "ཛ",
+              "ྲ"
+            ],
+            "note": {
+              "en": "ba + dza with subjoined ra (ra-ta) = Sanskrit \"vajra\". Tibetans chant it \"benza\".",
+              "zh": "བ + ཛ 加下加字 ར（ra-ta）= 梵文 \"vajra\"，藏人念作 \"benza\"（班杂）。"
+            }
+          },
+          "word": {
+            "tib": "བཛྲ་སཏྭ",
+            "iast": "vajrasattva",
+            "gloss": {
+              "en": "Vajrasattva — \"vajra being\", the Buddha of purification",
+              "zh": "金刚萨埵——\"金刚勇识\"，净障之佛"
+            }
+          }
+        },
+        {
+          "tib": "སཏྭ",
+          "wylie": "sat+wa",
+          "iast": "sattva",
+          "phon": {
+            "tibetan": "sato",
+            "sanskrit": "sattva"
+          },
+          "phonZh": "萨埵",
+          "phonPinyin": "sà duǒ",
+          "stack": {
+            "parts": [
+              "ས",
+              "ཏ",
+              "ྭ"
+            ],
+            "note": {
+              "en": "sa + ta with subjoined wa (wa-zur) = Sanskrit \"sattva\". Chanted \"sato\".",
+              "zh": "ས + ཏ 加下加字 ཝ（wa-zur）= 梵文 \"sattva\"，念作 \"sato\"（萨埵）。"
+            }
+          },
+          "word": {
+            "tib": "བཛྲ་སཏྭ",
+            "iast": "vajrasattva",
+            "gloss": {
+              "en": "Vajrasattva — \"vajra being\", the Buddha of purification",
+              "zh": "金刚萨埵——\"金刚勇识\"，净障之佛"
+            }
+          }
+        },
+        {
+          "tib": "ས",
+          "wylie": "sa",
+          "iast": "sa",
+          "phon": {
+            "tibetan": "sa",
+            "sanskrit": "sa"
+          },
+          "phonZh": "萨",
+          "phonPinyin": "sà",
+          "word": {
+            "tib": "ས་མ་ཡ",
+            "iast": "samaya",
+            "gloss": {
+              "en": "samaya — sacred commitment, the bond with the teacher and practice",
+              "zh": "三昧耶——神圣的誓言"
+            }
+          }
+        },
+        {
+          "tib": "མ",
+          "wylie": "ma",
+          "iast": "ma",
+          "phon": {
+            "tibetan": "ma",
+            "sanskrit": "ma"
+          },
+          "phonZh": "玛",
+          "phonPinyin": "mǎ",
+          "word": {
+            "tib": "ས་མ་ཡ",
+            "iast": "samaya",
+            "gloss": {
+              "en": "samaya — sacred commitment, the bond with the teacher and practice",
+              "zh": "三昧耶——神圣的誓言"
+            }
+          }
+        },
+        {
+          "tib": "ཡ",
+          "wylie": "ya",
+          "iast": "ya",
+          "phon": {
+            "tibetan": "ya",
+            "sanskrit": "ya"
+          },
+          "phonZh": "雅",
+          "phonPinyin": "yǎ",
+          "word": {
+            "tib": "ས་མ་ཡ",
+            "iast": "samaya",
+            "gloss": {
+              "en": "samaya — sacred commitment, the bond with the teacher and practice",
+              "zh": "三昧耶——神圣的誓言"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p2",
+      "tib": "མ་ནུ་པཱ་ལ་ཡ།",
+      "iast": "manupālaya",
+      "wylie": "ma nu pA la ya",
+      "phon": {
+        "tibetan": "manu palaya",
+        "sanskrit": "manupālaya"
+      },
+      "phonZh": "玛努巴拉雅",
+      "phonPinyin": "mǎ nǔ bā lā yǎ",
+      "gloss": {
+        "en": "protect it",
+        "zh": "请守护（此誓言）"
+      },
+      "syllables": [
+        {
+          "tib": "མ",
+          "wylie": "ma",
+          "iast": "ma",
+          "phon": {
+            "tibetan": "ma",
+            "sanskrit": "ma"
+          },
+          "phonZh": "玛",
+          "phonPinyin": "mǎ",
+          "word": {
+            "tib": "མ་ནུ་པཱ་ལ་ཡ",
+            "iast": "manupālaya",
+            "gloss": {
+              "en": "manupālaya — protect, keep, guard (the samaya)",
+              "zh": "守护、护持（誓言）"
+            }
+          }
+        },
+        {
+          "tib": "ནུ",
+          "wylie": "nu",
+          "iast": "nu",
+          "phon": {
+            "tibetan": "nu",
+            "sanskrit": "nu"
+          },
+          "phonZh": "努",
+          "phonPinyin": "nǔ",
+          "word": {
+            "tib": "མ་ནུ་པཱ་ལ་ཡ",
+            "iast": "manupālaya",
+            "gloss": {
+              "en": "manupālaya — protect, keep, guard (the samaya)",
+              "zh": "守护、护持（誓言）"
+            }
+          }
+        },
+        {
+          "tib": "པཱ",
+          "wylie": "pA",
+          "iast": "pā",
+          "phon": {
+            "tibetan": "pa",
+            "sanskrit": "pā"
+          },
+          "phonZh": "巴",
+          "phonPinyin": "bā",
+          "stack": {
+            "parts": [
+              "པ",
+              "ཱ"
+            ],
+            "note": {
+              "en": "pa + a-chung = long \"pā\".",
+              "zh": "པ + 长音符 ཱ = 长音 \"pā\"。"
+            }
+          },
+          "word": {
+            "tib": "མ་ནུ་པཱ་ལ་ཡ",
+            "iast": "manupālaya",
+            "gloss": {
+              "en": "manupālaya — protect, keep, guard (the samaya)",
+              "zh": "守护、护持（誓言）"
+            }
+          }
+        },
+        {
+          "tib": "ལ",
+          "wylie": "la",
+          "iast": "la",
+          "phon": {
+            "tibetan": "la",
+            "sanskrit": "la"
+          },
+          "phonZh": "拉",
+          "phonPinyin": "lā",
+          "word": {
+            "tib": "མ་ནུ་པཱ་ལ་ཡ",
+            "iast": "manupālaya",
+            "gloss": {
+              "en": "manupālaya — protect, keep, guard (the samaya)",
+              "zh": "守护、护持（誓言）"
+            }
+          }
+        },
+        {
+          "tib": "ཡ",
+          "wylie": "ya",
+          "iast": "ya",
+          "phon": {
+            "tibetan": "ya",
+            "sanskrit": "ya"
+          },
+          "phonZh": "雅",
+          "phonPinyin": "yǎ",
+          "word": {
+            "tib": "མ་ནུ་པཱ་ལ་ཡ",
+            "iast": "manupālaya",
+            "gloss": {
+              "en": "manupālaya — protect, keep, guard (the samaya)",
+              "zh": "守护、护持（誓言）"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p3",
+      "tib": "བཛྲ་སཏྭ་ཏྭེ་ནོ་པ་ཏིཥྛ།",
+      "iast": "vajrasattva tvenopatiṣṭha",
+      "wylie": "badzra sat+wa twe no pa tiShTha",
+      "phon": {
+        "tibetan": "benza sato tenopa tishta",
+        "sanskrit": "vajrasattva tvenopatishtha"
+      },
+      "phonZh": "班杂 萨埵 爹诺巴 地叉",
+      "phonPinyin": "bān zá sà duǒ diē nuò bā dì chā",
+      "gloss": {
+        "en": "as Vajrasattva, remain close to me",
+        "zh": "金刚萨埵，请安住于我"
+      },
+      "syllables": [
+        {
+          "tib": "བཛྲ",
+          "wylie": "badzra",
+          "iast": "vajra",
+          "phon": {
+            "tibetan": "benza",
+            "sanskrit": "vajra"
+          },
+          "phonZh": "班杂",
+          "phonPinyin": "bān zá",
+          "stack": {
+            "parts": [
+              "བ",
+              "ཛ",
+              "ྲ"
+            ],
+            "note": {
+              "en": "ba + dza with subjoined ra (ra-ta) = Sanskrit \"vajra\". Tibetans chant it \"benza\".",
+              "zh": "བ + ཛ 加下加字 ར（ra-ta）= 梵文 \"vajra\"，藏人念作 \"benza\"（班杂）。"
+            }
+          },
+          "word": {
+            "tib": "བཛྲ་སཏྭ",
+            "iast": "vajrasattva",
+            "gloss": {
+              "en": "Vajrasattva",
+              "zh": "金刚萨埵"
+            }
+          }
+        },
+        {
+          "tib": "སཏྭ",
+          "wylie": "sat+wa",
+          "iast": "sattva",
+          "phon": {
+            "tibetan": "sato",
+            "sanskrit": "sattva"
+          },
+          "phonZh": "萨埵",
+          "phonPinyin": "sà duǒ",
+          "stack": {
+            "parts": [
+              "ས",
+              "ཏ",
+              "ྭ"
+            ],
+            "note": {
+              "en": "sa + ta with subjoined wa (wa-zur) = Sanskrit \"sattva\". Chanted \"sato\".",
+              "zh": "ས + ཏ 加下加字 ཝ（wa-zur）= 梵文 \"sattva\"，念作 \"sato\"（萨埵）。"
+            }
+          },
+          "word": {
+            "tib": "བཛྲ་སཏྭ",
+            "iast": "vajrasattva",
+            "gloss": {
+              "en": "Vajrasattva",
+              "zh": "金刚萨埵"
+            }
+          }
+        },
+        {
+          "tib": "ཏྭེ",
+          "wylie": "twe",
+          "iast": "tve",
+          "phon": {
+            "tibetan": "te",
+            "sanskrit": "tve"
+          },
+          "phonZh": "爹",
+          "phonPinyin": "diē",
+          "stack": {
+            "parts": [
+              "ཏ",
+              "ྭ",
+              "ེ"
+            ],
+            "note": {
+              "en": "ta + wa-zur + e vowel = \"tve\". Chanted \"te\".",
+              "zh": "ཏ + 下加 ཝ + 元音 e = \"tve\"，念作 \"te\"。"
+            }
+          },
+          "word": {
+            "tib": "ཏྭེ་ནོ་པ་ཏིཥྛ",
+            "iast": "tvenopatiṣṭha",
+            "gloss": {
+              "en": "tvena upatiṣṭha — as you (Vajrasattva), remain close to me",
+              "zh": "以您（金刚萨埵）之身，安住于我"
+            }
+          }
+        },
+        {
+          "tib": "ནོ",
+          "wylie": "no",
+          "iast": "no",
+          "phon": {
+            "tibetan": "no",
+            "sanskrit": "no"
+          },
+          "phonZh": "诺",
+          "phonPinyin": "nuò",
+          "word": {
+            "tib": "ཏྭེ་ནོ་པ་ཏིཥྛ",
+            "iast": "tvenopatiṣṭha",
+            "gloss": {
+              "en": "tvena upatiṣṭha — as you (Vajrasattva), remain close to me",
+              "zh": "以您（金刚萨埵）之身，安住于我"
+            }
+          }
+        },
+        {
+          "tib": "པ",
+          "wylie": "pa",
+          "iast": "pa",
+          "phon": {
+            "tibetan": "pa",
+            "sanskrit": "pa"
+          },
+          "phonZh": "巴",
+          "phonPinyin": "bā",
+          "word": {
+            "tib": "ཏྭེ་ནོ་པ་ཏིཥྛ",
+            "iast": "tvenopatiṣṭha",
+            "gloss": {
+              "en": "tvena upatiṣṭha — as you (Vajrasattva), remain close to me",
+              "zh": "以您（金刚萨埵）之身，安住于我"
+            }
+          }
+        },
+        {
+          "tib": "ཏིཥྛ",
+          "wylie": "tiShTha",
+          "iast": "tiṣṭha",
+          "phon": {
+            "tibetan": "tishta",
+            "sanskrit": "tishtha"
+          },
+          "phonZh": "地叉",
+          "phonPinyin": "dì chā",
+          "stack": {
+            "parts": [
+              "ཏ",
+              "ི",
+              "ཥ",
+              "ྛ"
+            ],
+            "note": {
+              "en": "ti + ṣa stacked over ṭha = \"tiṣṭha\". ཥ is a Sanskrit letter; chanted \"tishta\".",
+              "zh": "ཏི + ཥ 叠 ཋ = \"tiṣṭha\"。ཥ 为梵文字母，念作 \"tishta\"（地叉）。"
+            }
+          },
+          "word": {
+            "tib": "ཏྭེ་ནོ་པ་ཏིཥྛ",
+            "iast": "tvenopatiṣṭha",
+            "gloss": {
+              "en": "tvena upatiṣṭha — as you (Vajrasattva), remain close to me",
+              "zh": "以您（金刚萨埵）之身，安住于我"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p4",
+      "tib": "དྲྀ་ཌྷོ་མེ་བྷ་ཝ།",
+      "iast": "dṛḍho me bhava",
+      "wylie": "dRi Dho me bha wa",
+      "phon": {
+        "tibetan": "drido me bhawa",
+        "sanskrit": "dridho me bhava"
+      },
+      "phonZh": "至多 美 巴瓦",
+      "phonPinyin": "zhì duō měi bā wǎ",
+      "gloss": {
+        "en": "be steadfast for me",
+        "zh": "请于我坚固"
+      },
+      "syllables": [
+        {
+          "tib": "དྲྀ",
+          "wylie": "dRi",
+          "iast": "dṛ",
+          "phon": {
+            "tibetan": "dri",
+            "sanskrit": "dri"
+          },
+          "phonZh": "至",
+          "phonPinyin": "zhì",
+          "stack": {
+            "parts": [
+              "ད",
+              "ྲ",
+              "ྀ"
+            ],
+            "note": {
+              "en": "da + ra-ta + reversed gigu (ṛ vowel) = Sanskrit \"dṛ\".",
+              "zh": "ད + 下加 ར + 反写 i（梵文元音 ṛ）= \"dṛ\"。"
+            }
+          },
+          "word": {
+            "tib": "དྲྀ་ཌྷོ",
+            "iast": "dṛḍho",
+            "gloss": {
+              "en": "dṛḍha — firm, steadfast",
+              "zh": "坚固、坚定"
+            }
+          }
+        },
+        {
+          "tib": "ཌྷོ",
+          "wylie": "Dho",
+          "iast": "ḍho",
+          "phon": {
+            "tibetan": "dho",
+            "sanskrit": "dho"
+          },
+          "phonZh": "多",
+          "phonPinyin": "duō",
+          "stack": {
+            "parts": [
+              "ཌ",
+              "ྷ",
+              "ོ"
+            ],
+            "note": {
+              "en": "reversed da (retroflex ḍa) + subjoined ha (aspiration) + o = \"ḍho\".",
+              "zh": "ཌ（卷舌 ḍa）+ 下加 ཧ（送气）+ 元音 o = \"ḍho\"。"
+            }
+          },
+          "word": {
+            "tib": "དྲྀ་ཌྷོ",
+            "iast": "dṛḍho",
+            "gloss": {
+              "en": "dṛḍha — firm, steadfast",
+              "zh": "坚固、坚定"
+            }
+          }
+        },
+        {
+          "tib": "མེ",
+          "wylie": "me",
+          "iast": "me",
+          "phon": {
+            "tibetan": "me",
+            "sanskrit": "me"
+          },
+          "phonZh": "美",
+          "phonPinyin": "měi",
+          "word": {
+            "tib": "མེ",
+            "iast": "me",
+            "gloss": {
+              "en": "me — for me, to me",
+              "zh": "我（对我）"
+            }
+          }
+        },
+        {
+          "tib": "བྷ",
+          "wylie": "bha",
+          "iast": "bha",
+          "phon": {
+            "tibetan": "bha",
+            "sanskrit": "bha"
+          },
+          "phonZh": "巴",
+          "phonPinyin": "bā",
+          "stack": {
+            "parts": [
+              "བ",
+              "ྷ"
+            ],
+            "note": {
+              "en": "ba + subjoined ha = aspirated Sanskrit \"bha\".",
+              "zh": "བ + 下加 ཧ = 送气的梵文 \"bha\"。"
+            }
+          },
+          "word": {
+            "tib": "བྷ་ཝ",
+            "iast": "bhava",
+            "gloss": {
+              "en": "bhava — be, become",
+              "zh": "成为、请（为我）"
+            }
+          }
+        },
+        {
+          "tib": "ཝ",
+          "wylie": "wa",
+          "iast": "va",
+          "phon": {
+            "tibetan": "wa",
+            "sanskrit": "va"
+          },
+          "phonZh": "瓦",
+          "phonPinyin": "wǎ",
+          "word": {
+            "tib": "བྷ་ཝ",
+            "iast": "bhava",
+            "gloss": {
+              "en": "bhava — be, become",
+              "zh": "成为、请（为我）"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p5",
+      "tib": "སུ་ཏོ་ཥྱོ་མེ་བྷ་ཝ།",
+      "iast": "sutoṣyo me bhava",
+      "wylie": "su to Shyo me bha wa",
+      "phon": {
+        "tibetan": "suto kayo me bhawa",
+        "sanskrit": "sutoshyo me bhava"
+      },
+      "phonZh": "苏多 卡友 美 巴瓦",
+      "phonPinyin": "sū duō kǎ yǒu měi bā wǎ",
+      "gloss": {
+        "en": "be well pleased with me",
+        "zh": "请于我欢喜"
+      },
+      "syllables": [
+        {
+          "tib": "སུ",
+          "wylie": "su",
+          "iast": "su",
+          "phon": {
+            "tibetan": "su",
+            "sanskrit": "su"
+          },
+          "phonZh": "苏",
+          "phonPinyin": "sū",
+          "word": {
+            "tib": "སུ་ཏོ་ཥྱོ",
+            "iast": "sutoṣyo",
+            "gloss": {
+              "en": "sutoṣya — well pleased, delighted",
+              "zh": "极为欢喜、满意"
+            }
+          }
+        },
+        {
+          "tib": "ཏོ",
+          "wylie": "to",
+          "iast": "to",
+          "phon": {
+            "tibetan": "to",
+            "sanskrit": "to"
+          },
+          "phonZh": "多",
+          "phonPinyin": "duō",
+          "word": {
+            "tib": "སུ་ཏོ་ཥྱོ",
+            "iast": "sutoṣyo",
+            "gloss": {
+              "en": "sutoṣya — well pleased, delighted",
+              "zh": "极为欢喜、满意"
+            }
+          }
+        },
+        {
+          "tib": "ཥྱོ",
+          "wylie": "Shyo",
+          "iast": "ṣyo",
+          "phon": {
+            "tibetan": "kayo",
+            "sanskrit": "shyo"
+          },
+          "phonZh": "卡友",
+          "phonPinyin": "kǎ yǒu",
+          "stack": {
+            "parts": [
+              "ཥ",
+              "ྱ",
+              "ོ"
+            ],
+            "note": {
+              "en": "ṣa + ya-ta + o = \"ṣyo\". Tibetans read ཥ as \"ka\", so it is chanted \"kayo\".",
+              "zh": "ཥ + 下加 ཡ + 元音 o = \"ṣyo\"。藏人将 ཥ 读作 \"ka\"，所以念 \"kayo\"（卡友）。"
+            }
+          },
+          "word": {
+            "tib": "སུ་ཏོ་ཥྱོ",
+            "iast": "sutoṣyo",
+            "gloss": {
+              "en": "sutoṣya — well pleased, delighted",
+              "zh": "极为欢喜、满意"
+            }
+          }
+        },
+        {
+          "tib": "མེ",
+          "wylie": "me",
+          "iast": "me",
+          "phon": {
+            "tibetan": "me",
+            "sanskrit": "me"
+          },
+          "phonZh": "美",
+          "phonPinyin": "měi",
+          "word": {
+            "tib": "མེ",
+            "iast": "me",
+            "gloss": {
+              "en": "me — for me, to me",
+              "zh": "我（对我）"
+            }
+          }
+        },
+        {
+          "tib": "བྷ",
+          "wylie": "bha",
+          "iast": "bha",
+          "phon": {
+            "tibetan": "bha",
+            "sanskrit": "bha"
+          },
+          "phonZh": "巴",
+          "phonPinyin": "bā",
+          "stack": {
+            "parts": [
+              "བ",
+              "ྷ"
+            ],
+            "note": {
+              "en": "ba + subjoined ha = aspirated Sanskrit \"bha\".",
+              "zh": "བ + 下加 ཧ = 送气的梵文 \"bha\"。"
+            }
+          },
+          "word": {
+            "tib": "བྷ་ཝ",
+            "iast": "bhava",
+            "gloss": {
+              "en": "bhava — be, become",
+              "zh": "成为、请（为我）"
+            }
+          }
+        },
+        {
+          "tib": "ཝ",
+          "wylie": "wa",
+          "iast": "va",
+          "phon": {
+            "tibetan": "wa",
+            "sanskrit": "va"
+          },
+          "phonZh": "瓦",
+          "phonPinyin": "wǎ",
+          "word": {
+            "tib": "བྷ་ཝ",
+            "iast": "bhava",
+            "gloss": {
+              "en": "bhava — be, become",
+              "zh": "成为、请（为我）"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "tib": "སུ་པོ་ཥྱོ་མེ་བྷ་ཝ།",
+      "iast": "supoṣyo me bhava",
+      "wylie": "su po Shyo me bha wa",
+      "phon": {
+        "tibetan": "supo kayo me bhawa",
+        "sanskrit": "suposhyo me bhava"
+      },
+      "phonZh": "苏波 卡友 美 巴瓦",
+      "phonPinyin": "sū bō kǎ yǒu měi bā wǎ",
+      "gloss": {
+        "en": "nourish (increase) for me",
+        "zh": "请令我增长"
+      },
+      "syllables": [
+        {
+          "tib": "སུ",
+          "wylie": "su",
+          "iast": "su",
+          "phon": {
+            "tibetan": "su",
+            "sanskrit": "su"
+          },
+          "phonZh": "苏",
+          "phonPinyin": "sū",
+          "word": {
+            "tib": "སུ་པོ་ཥྱོ",
+            "iast": "supoṣyo",
+            "gloss": {
+              "en": "supoṣya — well nourished; increase (my virtue)",
+              "zh": "善增长、滋养（我的善德）"
+            }
+          }
+        },
+        {
+          "tib": "པོ",
+          "wylie": "po",
+          "iast": "po",
+          "phon": {
+            "tibetan": "po",
+            "sanskrit": "po"
+          },
+          "phonZh": "波",
+          "phonPinyin": "bō",
+          "word": {
+            "tib": "སུ་པོ་ཥྱོ",
+            "iast": "supoṣyo",
+            "gloss": {
+              "en": "supoṣya — well nourished; increase (my virtue)",
+              "zh": "善增长、滋养（我的善德）"
+            }
+          }
+        },
+        {
+          "tib": "ཥྱོ",
+          "wylie": "Shyo",
+          "iast": "ṣyo",
+          "phon": {
+            "tibetan": "kayo",
+            "sanskrit": "shyo"
+          },
+          "phonZh": "卡友",
+          "phonPinyin": "kǎ yǒu",
+          "stack": {
+            "parts": [
+              "ཥ",
+              "ྱ",
+              "ོ"
+            ],
+            "note": {
+              "en": "ṣa + ya-ta + o = \"ṣyo\". Tibetans read ཥ as \"ka\", so it is chanted \"kayo\".",
+              "zh": "ཥ + 下加 ཡ + 元音 o = \"ṣyo\"。藏人将 ཥ 读作 \"ka\"，所以念 \"kayo\"（卡友）。"
+            }
+          },
+          "word": {
+            "tib": "སུ་པོ་ཥྱོ",
+            "iast": "supoṣyo",
+            "gloss": {
+              "en": "supoṣya — well nourished; increase (my virtue)",
+              "zh": "善增长、滋养（我的善德）"
+            }
+          }
+        },
+        {
+          "tib": "མེ",
+          "wylie": "me",
+          "iast": "me",
+          "phon": {
+            "tibetan": "me",
+            "sanskrit": "me"
+          },
+          "phonZh": "美",
+          "phonPinyin": "měi",
+          "word": {
+            "tib": "མེ",
+            "iast": "me",
+            "gloss": {
+              "en": "me — for me, to me",
+              "zh": "我（对我）"
+            }
+          }
+        },
+        {
+          "tib": "བྷ",
+          "wylie": "bha",
+          "iast": "bha",
+          "phon": {
+            "tibetan": "bha",
+            "sanskrit": "bha"
+          },
+          "phonZh": "巴",
+          "phonPinyin": "bā",
+          "stack": {
+            "parts": [
+              "བ",
+              "ྷ"
+            ],
+            "note": {
+              "en": "ba + subjoined ha = aspirated Sanskrit \"bha\".",
+              "zh": "བ + 下加 ཧ = 送气的梵文 \"bha\"。"
+            }
+          },
+          "word": {
+            "tib": "བྷ་ཝ",
+            "iast": "bhava",
+            "gloss": {
+              "en": "bhava — be, become",
+              "zh": "成为、请（为我）"
+            }
+          }
+        },
+        {
+          "tib": "ཝ",
+          "wylie": "wa",
+          "iast": "va",
+          "phon": {
+            "tibetan": "wa",
+            "sanskrit": "va"
+          },
+          "phonZh": "瓦",
+          "phonPinyin": "wǎ",
+          "word": {
+            "tib": "བྷ་ཝ",
+            "iast": "bhava",
+            "gloss": {
+              "en": "bhava — be, become",
+              "zh": "成为、请（为我）"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "tib": "ཨ་ནུ་རཀྟོ་མེ་བྷ་ཝ།",
+      "iast": "anurakto me bhava",
+      "wylie": "a nu rakto me bha wa",
+      "phon": {
+        "tibetan": "anu rakto me bhawa",
+        "sanskrit": "anurakto me bhava"
+      },
+      "phonZh": "阿努 惹多 美 巴瓦",
+      "phonPinyin": "ā nǔ rě duō měi bā wǎ",
+      "gloss": {
+        "en": "love me with care",
+        "zh": "请慈爱于我"
+      },
+      "syllables": [
+        {
+          "tib": "ཨ",
+          "wylie": "a",
+          "iast": "a",
+          "phon": {
+            "tibetan": "a",
+            "sanskrit": "a"
+          },
+          "phonZh": "阿",
+          "phonPinyin": "ā",
+          "word": {
+            "tib": "ཨ་ནུ་རཀྟོ",
+            "iast": "anurakto",
+            "gloss": {
+              "en": "anurakta — loving, devoted",
+              "zh": "慈爱、深切眷顾"
+            }
+          }
+        },
+        {
+          "tib": "ནུ",
+          "wylie": "nu",
+          "iast": "nu",
+          "phon": {
+            "tibetan": "nu",
+            "sanskrit": "nu"
+          },
+          "phonZh": "努",
+          "phonPinyin": "nǔ",
+          "word": {
+            "tib": "ཨ་ནུ་རཀྟོ",
+            "iast": "anurakto",
+            "gloss": {
+              "en": "anurakta — loving, devoted",
+              "zh": "慈爱、深切眷顾"
+            }
+          }
+        },
+        {
+          "tib": "རཀྟོ",
+          "wylie": "rakto",
+          "iast": "rakto",
+          "phon": {
+            "tibetan": "rakto",
+            "sanskrit": "rakto"
+          },
+          "phonZh": "惹多",
+          "phonPinyin": "rě duō",
+          "stack": {
+            "parts": [
+              "ར",
+              "ཀ",
+              "ྟ",
+              "ོ"
+            ],
+            "note": {
+              "en": "ra + ka stacked over ta + o = \"rakto\".",
+              "zh": "ར + ཀ 叠 ཏ + 元音 o = \"rakto\"。"
+            }
+          },
+          "word": {
+            "tib": "ཨ་ནུ་རཀྟོ",
+            "iast": "anurakto",
+            "gloss": {
+              "en": "anurakta — loving, devoted",
+              "zh": "慈爱、深切眷顾"
+            }
+          }
+        },
+        {
+          "tib": "མེ",
+          "wylie": "me",
+          "iast": "me",
+          "phon": {
+            "tibetan": "me",
+            "sanskrit": "me"
+          },
+          "phonZh": "美",
+          "phonPinyin": "měi",
+          "word": {
+            "tib": "མེ",
+            "iast": "me",
+            "gloss": {
+              "en": "me — for me, to me",
+              "zh": "我（对我）"
+            }
+          }
+        },
+        {
+          "tib": "བྷ",
+          "wylie": "bha",
+          "iast": "bha",
+          "phon": {
+            "tibetan": "bha",
+            "sanskrit": "bha"
+          },
+          "phonZh": "巴",
+          "phonPinyin": "bā",
+          "stack": {
+            "parts": [
+              "བ",
+              "ྷ"
+            ],
+            "note": {
+              "en": "ba + subjoined ha = aspirated Sanskrit \"bha\".",
+              "zh": "བ + 下加 ཧ = 送气的梵文 \"bha\"。"
+            }
+          },
+          "word": {
+            "tib": "བྷ་ཝ",
+            "iast": "bhava",
+            "gloss": {
+              "en": "bhava — be, become",
+              "zh": "成为、请（为我）"
+            }
+          }
+        },
+        {
+          "tib": "ཝ",
+          "wylie": "wa",
+          "iast": "va",
+          "phon": {
+            "tibetan": "wa",
+            "sanskrit": "va"
+          },
+          "phonZh": "瓦",
+          "phonPinyin": "wǎ",
+          "word": {
+            "tib": "བྷ་ཝ",
+            "iast": "bhava",
+            "gloss": {
+              "en": "bhava — be, become",
+              "zh": "成为、请（为我）"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p8",
+      "tib": "སརྦ་སིདྡྷི་མེ་པྲ་ཡཙྪ།",
+      "iast": "sarvasiddhiṃ me prayaccha",
+      "wylie": "sarba siddhi me pra yatstsha",
+      "phon": {
+        "tibetan": "sarwa siddhi me trayatsa",
+        "sanskrit": "sarva siddhim me prayaccha"
+      },
+      "phonZh": "萨瓦 悉地 美 札雅叉",
+      "phonPinyin": "sà wǎ xī dì měi zhá yǎ chā",
+      "gloss": {
+        "en": "grant me all accomplishments",
+        "zh": "请赐予我一切成就"
+      },
+      "syllables": [
+        {
+          "tib": "སརྦ",
+          "wylie": "sarba",
+          "iast": "sarva",
+          "phon": {
+            "tibetan": "sarwa",
+            "sanskrit": "sarva"
+          },
+          "phonZh": "萨瓦",
+          "phonPinyin": "sà wǎ",
+          "stack": {
+            "parts": [
+              "ས",
+              "ར",
+              "ྦ"
+            ],
+            "note": {
+              "en": "sa + ra stacked over ba = Sanskrit \"sarva\". Chanted \"sarwa\".",
+              "zh": "ས + ར 叠 བ = 梵文 \"sarva\"，念作 \"sarwa\"（萨瓦）。"
+            }
+          },
+          "word": {
+            "tib": "སརྦ",
+            "iast": "sarva",
+            "gloss": {
+              "en": "sarva — all",
+              "zh": "一切"
+            }
+          }
+        },
+        {
+          "tib": "སིདྡྷི",
+          "wylie": "siddhi",
+          "iast": "siddhi",
+          "phon": {
+            "tibetan": "siddhi",
+            "sanskrit": "siddhi"
+          },
+          "phonZh": "悉地",
+          "phonPinyin": "xī dì",
+          "stack": {
+            "parts": [
+              "ས",
+              "ི",
+              "ད",
+              "ྡ",
+              "ྷ",
+              "ི"
+            ],
+            "note": {
+              "en": "si + da stacked over dha + i = \"siddhi\" (accomplishment).",
+              "zh": "སི + ད 叠 དྷ + 元音 i = \"siddhi\"（悉地，成就）。"
+            }
+          },
+          "word": {
+            "tib": "སིདྡྷི",
+            "iast": "siddhiṃ",
+            "gloss": {
+              "en": "siddhi — accomplishments, attainments",
+              "zh": "悉地、成就"
+            }
+          }
+        },
+        {
+          "tib": "མེ",
+          "wylie": "me",
+          "iast": "me",
+          "phon": {
+            "tibetan": "me",
+            "sanskrit": "me"
+          },
+          "phonZh": "美",
+          "phonPinyin": "měi",
+          "word": {
+            "tib": "མེ",
+            "iast": "me",
+            "gloss": {
+              "en": "me — to me",
+              "zh": "于我"
+            }
+          }
+        },
+        {
+          "tib": "པྲ",
+          "wylie": "pra",
+          "iast": "pra",
+          "phon": {
+            "tibetan": "tra",
+            "sanskrit": "pra"
+          },
+          "phonZh": "札",
+          "phonPinyin": "zhá",
+          "stack": {
+            "parts": [
+              "པ",
+              "ྲ"
+            ],
+            "note": {
+              "en": "pa + ra-ta = \"pra\". In Tibetan reading pa + ra-ta sounds like \"tra\".",
+              "zh": "པ + 下加 ར = \"pra\"，藏文读音近似 \"tra\"（札）。"
+            }
+          },
+          "word": {
+            "tib": "པྲ་ཡཙྪ",
+            "iast": "prayaccha",
+            "gloss": {
+              "en": "prayaccha — grant, bestow",
+              "zh": "赐予"
+            }
+          }
+        },
+        {
+          "tib": "ཡཙྪ",
+          "wylie": "yatstsha",
+          "iast": "yaccha",
+          "phon": {
+            "tibetan": "yatsa",
+            "sanskrit": "yaccha"
+          },
+          "phonZh": "雅叉",
+          "phonPinyin": "yǎ chā",
+          "stack": {
+            "parts": [
+              "ཡ",
+              "ཙ",
+              "ྪ"
+            ],
+            "note": {
+              "en": "ya + ca stacked over cha = Sanskrit \"yaccha\". Chanted \"yatsa\".",
+              "zh": "ཡ + ཙ 叠 ཚ = 梵文 \"yaccha\"，念作 \"yatsa\"。"
+            }
+          },
+          "word": {
+            "tib": "པྲ་ཡཙྪ",
+            "iast": "prayaccha",
+            "gloss": {
+              "en": "prayaccha — grant, bestow",
+              "zh": "赐予"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p9",
+      "tib": "སརྦ་ཀརྨ་སུ་ཙ་མེ།",
+      "iast": "sarvakarmasu ca me",
+      "wylie": "sarba karma su tsa me",
+      "phon": {
+        "tibetan": "sarwa karma su tsa me",
+        "sanskrit": "sarva karmasu cha me"
+      },
+      "phonZh": "萨瓦 嘎玛 苏 杂 美",
+      "phonPinyin": "sà wǎ gā mǎ sū zá měi",
+      "gloss": {
+        "en": "and in all my actions",
+        "zh": "并于我一切事业中"
+      },
+      "syllables": [
+        {
+          "tib": "སརྦ",
+          "wylie": "sarba",
+          "iast": "sarva",
+          "phon": {
+            "tibetan": "sarwa",
+            "sanskrit": "sarva"
+          },
+          "phonZh": "萨瓦",
+          "phonPinyin": "sà wǎ",
+          "stack": {
+            "parts": [
+              "ས",
+              "ར",
+              "ྦ"
+            ],
+            "note": {
+              "en": "sa + ra stacked over ba = Sanskrit \"sarva\". Chanted \"sarwa\".",
+              "zh": "ས + ར 叠 བ = 梵文 \"sarva\"，念作 \"sarwa\"（萨瓦）。"
+            }
+          },
+          "word": {
+            "tib": "སརྦ",
+            "iast": "sarva",
+            "gloss": {
+              "en": "sarva — all",
+              "zh": "一切"
+            }
+          }
+        },
+        {
+          "tib": "ཀརྨ",
+          "wylie": "karma",
+          "iast": "karma",
+          "phon": {
+            "tibetan": "karma",
+            "sanskrit": "karma"
+          },
+          "phonZh": "嘎玛",
+          "phonPinyin": "gā mǎ",
+          "stack": {
+            "parts": [
+              "ཀ",
+              "ར",
+              "ྨ"
+            ],
+            "note": {
+              "en": "ka + ra stacked over ma = \"karma\".",
+              "zh": "ཀ + ར 叠 མ = \"karma\"（羯磨，业）。"
+            }
+          },
+          "word": {
+            "tib": "ཀརྨ་སུ",
+            "iast": "karmasu",
+            "gloss": {
+              "en": "karmasu — in actions, in all activity",
+              "zh": "于诸事业中"
+            }
+          }
+        },
+        {
+          "tib": "སུ",
+          "wylie": "su",
+          "iast": "su",
+          "phon": {
+            "tibetan": "su",
+            "sanskrit": "su"
+          },
+          "phonZh": "苏",
+          "phonPinyin": "sū",
+          "word": {
+            "tib": "ཀརྨ་སུ",
+            "iast": "karmasu",
+            "gloss": {
+              "en": "karmasu — in actions, in all activity",
+              "zh": "于诸事业中"
+            }
+          }
+        },
+        {
+          "tib": "ཙ",
+          "wylie": "tsa",
+          "iast": "ca",
+          "phon": {
+            "tibetan": "tsa",
+            "sanskrit": "cha"
+          },
+          "phonZh": "杂",
+          "phonPinyin": "zá",
+          "word": {
+            "tib": "ཙ",
+            "iast": "ca",
+            "gloss": {
+              "en": "ca — and",
+              "zh": "以及"
+            }
+          }
+        },
+        {
+          "tib": "མེ",
+          "wylie": "me",
+          "iast": "me",
+          "phon": {
+            "tibetan": "me",
+            "sanskrit": "me"
+          },
+          "phonZh": "美",
+          "phonPinyin": "měi",
+          "word": {
+            "tib": "མེ",
+            "iast": "me",
+            "gloss": {
+              "en": "me — my",
+              "zh": "我的"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p10",
+      "tib": "ཙིཏྟཾ་ཤྲི་ཡཿ་ཀུ་རུ་ཧཱུྃ།",
+      "iast": "cittaṃ śreyaḥ kuru hūṃ",
+      "wylie": "tsittaM shri yaH ku ru hU~M",
+      "phon": {
+        "tibetan": "tsittam shriyam kuru hung",
+        "sanskrit": "chittam shreyah kuru hum"
+      },
+      "phonZh": "积当 什日样 咕如 吽",
+      "phonPinyin": "jī dāng shí rì yàng gū rú hōng",
+      "gloss": {
+        "en": "make my mind virtuous, hūṃ",
+        "zh": "令我心善妙，吽"
+      },
+      "syllables": [
+        {
+          "tib": "ཙིཏྟཾ",
+          "wylie": "tsittaM",
+          "iast": "cittaṃ",
+          "phon": {
+            "tibetan": "tsittam",
+            "sanskrit": "chittam"
+          },
+          "phonZh": "积当",
+          "phonPinyin": "jī dāng",
+          "stack": {
+            "parts": [
+              "ཙ",
+              "ི",
+              "ཏ",
+              "ྟ",
+              "ཾ"
+            ],
+            "note": {
+              "en": "ci + doubled ta + anusvāra (ཾ, nasal m) = \"cittaṃ\".",
+              "zh": "ཙི + 双 ཏ + 随韵 ཾ（鼻音 m）= \"cittaṃ\"。"
+            }
+          },
+          "word": {
+            "tib": "ཙིཏྟཾ",
+            "iast": "cittaṃ",
+            "gloss": {
+              "en": "citta — mind",
+              "zh": "心"
+            }
+          }
+        },
+        {
+          "tib": "ཤྲི",
+          "wylie": "shri",
+          "iast": "śri",
+          "phon": {
+            "tibetan": "shri",
+            "sanskrit": "shre"
+          },
+          "phonZh": "什日",
+          "phonPinyin": "shí rì",
+          "stack": {
+            "parts": [
+              "ཤ",
+              "ྲ",
+              "ི"
+            ],
+            "note": {
+              "en": "sha + ra-ta + i = \"śri\".",
+              "zh": "ཤ + 下加 ར + 元音 i = \"śri\"。"
+            }
+          },
+          "word": {
+            "tib": "ཤྲི་ཡཿ",
+            "iast": "śreyaḥ",
+            "gloss": {
+              "en": "śreyas — virtuous, excellent",
+              "zh": "善妙、吉祥"
+            }
+          }
+        },
+        {
+          "tib": "ཡཿ",
+          "wylie": "yaH",
+          "iast": "yaḥ",
+          "phon": {
+            "tibetan": "yam",
+            "sanskrit": "yah"
+          },
+          "phonZh": "样",
+          "phonPinyin": "yàng",
+          "stack": {
+            "parts": [
+              "ཡ",
+              "ཿ"
+            ],
+            "note": {
+              "en": "ya + visarga (ཿ, a breathy \"h\") = \"yaḥ\".",
+              "zh": "ཡ + 止声符 ཿ（轻送气 h）= \"yaḥ\"。"
+            }
+          },
+          "word": {
+            "tib": "ཤྲི་ཡཿ",
+            "iast": "śreyaḥ",
+            "gloss": {
+              "en": "śreyas — virtuous, excellent",
+              "zh": "善妙、吉祥"
+            }
+          }
+        },
+        {
+          "tib": "ཀུ",
+          "wylie": "ku",
+          "iast": "ku",
+          "phon": {
+            "tibetan": "ku",
+            "sanskrit": "ku"
+          },
+          "phonZh": "咕",
+          "phonPinyin": "gū",
+          "word": {
+            "tib": "ཀུ་རུ",
+            "iast": "kuru",
+            "gloss": {
+              "en": "kuru — make, do",
+              "zh": "令、作"
+            }
+          }
+        },
+        {
+          "tib": "རུ",
+          "wylie": "ru",
+          "iast": "ru",
+          "phon": {
+            "tibetan": "ru",
+            "sanskrit": "ru"
+          },
+          "phonZh": "如",
+          "phonPinyin": "rú",
+          "word": {
+            "tib": "ཀུ་རུ",
+            "iast": "kuru",
+            "gloss": {
+              "en": "kuru — make, do",
+              "zh": "令、作"
+            }
+          }
+        },
+        {
+          "tib": "ཧཱུྃ",
+          "wylie": "hU~M",
+          "iast": "hūṃ",
+          "phon": {
+            "tibetan": "hung",
+            "sanskrit": "hūm"
+          },
+          "phonZh": "吽",
+          "phonPinyin": "hōng",
+          "stack": {
+            "parts": [
+              "ཧ",
+              "ཱ",
+              "ུ",
+              "ྃ"
+            ],
+            "note": {
+              "en": "ha + a-chung (long vowel) + u + nāda-bindu (ྃ, nasal) = \"hūṃ\". Chanted \"hung\".",
+              "zh": "ཧ + 长音符 ཱ + 元音 u + 月点 ྃ（鼻音）= \"hūṃ\"，念作 \"hung\"（吽）。"
+            }
+          },
+          "word": {
+            "tib": "ཧཱུྃ",
+            "iast": "hūṃ",
+            "gloss": {
+              "en": "hūṃ — seed syllable of Vajrasattva's enlightened mind",
+              "zh": "吽——金刚萨埵心意的种子字"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p11",
+      "tib": "ཧ་ཧ་ཧ་ཧ་ཧོཿ།",
+      "iast": "ha ha ha ha hoḥ",
+      "wylie": "ha ha ha ha hoH",
+      "phon": {
+        "tibetan": "ha ha ha ha ho",
+        "sanskrit": "ha ha ha ha hoh"
+      },
+      "phonZh": "哈 哈 哈 哈 吙",
+      "phonPinyin": "hā hā hā hā huǒ",
+      "gloss": {
+        "en": "ha ha ha ha hoḥ",
+        "zh": "哈哈哈哈 吙"
+      },
+      "syllables": [
+        {
+          "tib": "ཧ",
+          "wylie": "ha",
+          "iast": "ha",
+          "phon": {
+            "tibetan": "ha",
+            "sanskrit": "ha"
+          },
+          "phonZh": "哈",
+          "phonPinyin": "hā",
+          "word": {
+            "tib": "ཧ་ཧ་ཧ་ཧ",
+            "iast": "ha ha ha ha",
+            "gloss": {
+              "en": "ha ha ha ha — the four immeasurables, four empowerments, four joys and four kāyas",
+              "zh": "哈哈哈哈——表四无量心、四灌顶、四喜、四身"
+            }
+          }
+        },
+        {
+          "tib": "ཧ",
+          "wylie": "ha",
+          "iast": "ha",
+          "phon": {
+            "tibetan": "ha",
+            "sanskrit": "ha"
+          },
+          "phonZh": "哈",
+          "phonPinyin": "hā",
+          "word": {
+            "tib": "ཧ་ཧ་ཧ་ཧ",
+            "iast": "ha ha ha ha",
+            "gloss": {
+              "en": "ha ha ha ha — the four immeasurables, four empowerments, four joys and four kāyas",
+              "zh": "哈哈哈哈——表四无量心、四灌顶、四喜、四身"
+            }
+          }
+        },
+        {
+          "tib": "ཧ",
+          "wylie": "ha",
+          "iast": "ha",
+          "phon": {
+            "tibetan": "ha",
+            "sanskrit": "ha"
+          },
+          "phonZh": "哈",
+          "phonPinyin": "hā",
+          "word": {
+            "tib": "ཧ་ཧ་ཧ་ཧ",
+            "iast": "ha ha ha ha",
+            "gloss": {
+              "en": "ha ha ha ha — the four immeasurables, four empowerments, four joys and four kāyas",
+              "zh": "哈哈哈哈——表四无量心、四灌顶、四喜、四身"
+            }
+          }
+        },
+        {
+          "tib": "ཧ",
+          "wylie": "ha",
+          "iast": "ha",
+          "phon": {
+            "tibetan": "ha",
+            "sanskrit": "ha"
+          },
+          "phonZh": "哈",
+          "phonPinyin": "hā",
+          "word": {
+            "tib": "ཧ་ཧ་ཧ་ཧ",
+            "iast": "ha ha ha ha",
+            "gloss": {
+              "en": "ha ha ha ha — the four immeasurables, four empowerments, four joys and four kāyas",
+              "zh": "哈哈哈哈——表四无量心、四灌顶、四喜、四身"
+            }
+          }
+        },
+        {
+          "tib": "ཧོཿ",
+          "wylie": "hoH",
+          "iast": "hoḥ",
+          "phon": {
+            "tibetan": "ho",
+            "sanskrit": "hoh"
+          },
+          "phonZh": "吙",
+          "phonPinyin": "huǒ",
+          "stack": {
+            "parts": [
+              "ཧ",
+              "ོ",
+              "ཿ"
+            ],
+            "note": {
+              "en": "ha + o + visarga = \"hoḥ\".",
+              "zh": "ཧ + 元音 o + 止声符 ཿ = \"hoḥ\"。"
+            }
+          },
+          "word": {
+            "tib": "ཧོཿ",
+            "iast": "hoḥ",
+            "gloss": {
+              "en": "hoḥ — exclamation of joy at their union",
+              "zh": "吙——表其双运之喜悦"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p12",
+      "tib": "བྷ་ག་ཝཱན།",
+      "iast": "bhagavān",
+      "wylie": "bha ga wAn",
+      "phon": {
+        "tibetan": "bhagawan",
+        "sanskrit": "bhagavan"
+      },
+      "phonZh": "巴嘎万",
+      "phonPinyin": "bā gā wàn",
+      "gloss": {
+        "en": "Blessed One",
+        "zh": "世尊（薄伽梵）"
+      },
+      "syllables": [
+        {
+          "tib": "བྷ",
+          "wylie": "bha",
+          "iast": "bha",
+          "phon": {
+            "tibetan": "bha",
+            "sanskrit": "bha"
+          },
+          "phonZh": "巴",
+          "phonPinyin": "bā",
+          "stack": {
+            "parts": [
+              "བ",
+              "ྷ"
+            ],
+            "note": {
+              "en": "ba + subjoined ha = aspirated Sanskrit \"bha\".",
+              "zh": "བ + 下加 ཧ = 送气的梵文 \"bha\"。"
+            }
+          },
+          "word": {
+            "tib": "བྷ་ག་ཝཱན",
+            "iast": "bhagavān",
+            "gloss": {
+              "en": "bhagavān — Blessed One, Transcendent Conqueror",
+              "zh": "薄伽梵、出有坏、世尊"
+            }
+          }
+        },
+        {
+          "tib": "ག",
+          "wylie": "ga",
+          "iast": "ga",
+          "phon": {
+            "tibetan": "ga",
+            "sanskrit": "ga"
+          },
+          "phonZh": "嘎",
+          "phonPinyin": "gā",
+          "word": {
+            "tib": "བྷ་ག་ཝཱན",
+            "iast": "bhagavān",
+            "gloss": {
+              "en": "bhagavān — Blessed One, Transcendent Conqueror",
+              "zh": "薄伽梵、出有坏、世尊"
+            }
+          }
+        },
+        {
+          "tib": "ཝཱན",
+          "wylie": "wAn",
+          "iast": "vān",
+          "phon": {
+            "tibetan": "wan",
+            "sanskrit": "van"
+          },
+          "phonZh": "万",
+          "phonPinyin": "wàn",
+          "stack": {
+            "parts": [
+              "ཝ",
+              "ཱ",
+              "ན"
+            ],
+            "note": {
+              "en": "wa + a-chung (long ā) + final na = \"vān\".",
+              "zh": "ཝ + 长音符 ཱ + 后加 ན = \"vān\"。"
+            }
+          },
+          "word": {
+            "tib": "བྷ་ག་ཝཱན",
+            "iast": "bhagavān",
+            "gloss": {
+              "en": "bhagavān — Blessed One, Transcendent Conqueror",
+              "zh": "薄伽梵、出有坏、世尊"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p13",
+      "tib": "སརྦ་ཏ་ཐཱ་ག་ཏ།",
+      "iast": "sarvatathāgata",
+      "wylie": "sarba ta thA ga ta",
+      "phon": {
+        "tibetan": "sarwa tathagata",
+        "sanskrit": "sarva tathagata"
+      },
+      "phonZh": "萨瓦 达他嘎达",
+      "phonPinyin": "sà wǎ dá tā gā dá",
+      "gloss": {
+        "en": "all the Tathāgatas",
+        "zh": "一切如来"
+      },
+      "syllables": [
+        {
+          "tib": "སརྦ",
+          "wylie": "sarba",
+          "iast": "sarva",
+          "phon": {
+            "tibetan": "sarwa",
+            "sanskrit": "sarva"
+          },
+          "phonZh": "萨瓦",
+          "phonPinyin": "sà wǎ",
+          "stack": {
+            "parts": [
+              "ས",
+              "ར",
+              "ྦ"
+            ],
+            "note": {
+              "en": "sa + ra stacked over ba = Sanskrit \"sarva\". Chanted \"sarwa\".",
+              "zh": "ས + ར 叠 བ = 梵文 \"sarva\"，念作 \"sarwa\"（萨瓦）。"
+            }
+          },
+          "word": {
+            "tib": "སརྦ",
+            "iast": "sarva",
+            "gloss": {
+              "en": "sarva — all",
+              "zh": "一切"
+            }
+          }
+        },
+        {
+          "tib": "ཏ",
+          "wylie": "ta",
+          "iast": "ta",
+          "phon": {
+            "tibetan": "ta",
+            "sanskrit": "ta"
+          },
+          "phonZh": "达",
+          "phonPinyin": "dá",
+          "word": {
+            "tib": "ཏ་ཐཱ་ག་ཏ",
+            "iast": "tathāgata",
+            "gloss": {
+              "en": "tathāgata — \"thus-gone one\", a Buddha",
+              "zh": "如来"
+            }
+          }
+        },
+        {
+          "tib": "ཐཱ",
+          "wylie": "thA",
+          "iast": "thā",
+          "phon": {
+            "tibetan": "tha",
+            "sanskrit": "thā"
+          },
+          "phonZh": "他",
+          "phonPinyin": "tā",
+          "stack": {
+            "parts": [
+              "ཐ",
+              "ཱ"
+            ],
+            "note": {
+              "en": "tha + a-chung = long \"thā\".",
+              "zh": "ཐ + 长音符 ཱ = 长音 \"thā\"。"
+            }
+          },
+          "word": {
+            "tib": "ཏ་ཐཱ་ག་ཏ",
+            "iast": "tathāgata",
+            "gloss": {
+              "en": "tathāgata — \"thus-gone one\", a Buddha",
+              "zh": "如来"
+            }
+          }
+        },
+        {
+          "tib": "ག",
+          "wylie": "ga",
+          "iast": "ga",
+          "phon": {
+            "tibetan": "ga",
+            "sanskrit": "ga"
+          },
+          "phonZh": "嘎",
+          "phonPinyin": "gā",
+          "word": {
+            "tib": "ཏ་ཐཱ་ག་ཏ",
+            "iast": "tathāgata",
+            "gloss": {
+              "en": "tathāgata — \"thus-gone one\", a Buddha",
+              "zh": "如来"
+            }
+          }
+        },
+        {
+          "tib": "ཏ",
+          "wylie": "ta",
+          "iast": "ta",
+          "phon": {
+            "tibetan": "ta",
+            "sanskrit": "ta"
+          },
+          "phonZh": "达",
+          "phonPinyin": "dá",
+          "word": {
+            "tib": "ཏ་ཐཱ་ག་ཏ",
+            "iast": "tathāgata",
+            "gloss": {
+              "en": "tathāgata — \"thus-gone one\", a Buddha",
+              "zh": "如来"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p14",
+      "tib": "བཛྲ་མཱ་མེ་མུཉྩ།",
+      "iast": "vajra mā me muñca",
+      "wylie": "badzra mA me munyca",
+      "phon": {
+        "tibetan": "benza ma me muntsa",
+        "sanskrit": "vajra ma me muncha"
+      },
+      "phonZh": "班杂 玛 美 母杂",
+      "phonPinyin": "bān zá mǎ měi mǔ zá",
+      "gloss": {
+        "en": "vajra, do not abandon me",
+        "zh": "金刚，请勿舍弃我"
+      },
+      "syllables": [
+        {
+          "tib": "བཛྲ",
+          "wylie": "badzra",
+          "iast": "vajra",
+          "phon": {
+            "tibetan": "benza",
+            "sanskrit": "vajra"
+          },
+          "phonZh": "班杂",
+          "phonPinyin": "bān zá",
+          "stack": {
+            "parts": [
+              "བ",
+              "ཛ",
+              "ྲ"
+            ],
+            "note": {
+              "en": "ba + dza with subjoined ra (ra-ta) = Sanskrit \"vajra\". Tibetans chant it \"benza\".",
+              "zh": "བ + ཛ 加下加字 ར（ra-ta）= 梵文 \"vajra\"，藏人念作 \"benza\"（班杂）。"
+            }
+          },
+          "word": {
+            "tib": "བཛྲ",
+            "iast": "vajra",
+            "gloss": {
+              "en": "vajra — indestructible one",
+              "zh": "金刚"
+            }
+          }
+        },
+        {
+          "tib": "མཱ",
+          "wylie": "mA",
+          "iast": "mā",
+          "phon": {
+            "tibetan": "ma",
+            "sanskrit": "mā"
+          },
+          "phonZh": "玛",
+          "phonPinyin": "mǎ",
+          "stack": {
+            "parts": [
+              "མ",
+              "ཱ"
+            ],
+            "note": {
+              "en": "ma + a-chung = long \"mā\".",
+              "zh": "མ + 长音符 ཱ = 长音 \"mā\"。"
+            }
+          },
+          "word": {
+            "tib": "མཱ",
+            "iast": "mā",
+            "gloss": {
+              "en": "mā — do not",
+              "zh": "勿、莫"
+            }
+          }
+        },
+        {
+          "tib": "མེ",
+          "wylie": "me",
+          "iast": "me",
+          "phon": {
+            "tibetan": "me",
+            "sanskrit": "me"
+          },
+          "phonZh": "美",
+          "phonPinyin": "měi",
+          "word": {
+            "tib": "མེ",
+            "iast": "me",
+            "gloss": {
+              "en": "me — me",
+              "zh": "我"
+            }
+          }
+        },
+        {
+          "tib": "མུཉྩ",
+          "wylie": "munyca",
+          "iast": "muñca",
+          "phon": {
+            "tibetan": "muntsa",
+            "sanskrit": "muncha"
+          },
+          "phonZh": "母杂",
+          "phonPinyin": "mǔ zá",
+          "stack": {
+            "parts": [
+              "མ",
+              "ུ",
+              "ཉ",
+              "ྩ"
+            ],
+            "note": {
+              "en": "mu + nya stacked over ca = \"muñca\". Chanted \"muntsa\".",
+              "zh": "མུ + ཉ 叠 ཙ = \"muñca\"，念作 \"muntsa\"（母杂）。"
+            }
+          },
+          "word": {
+            "tib": "མུཉྩ",
+            "iast": "muñca",
+            "gloss": {
+              "en": "muñca — abandon, let go of",
+              "zh": "舍弃"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p15",
+      "tib": "བཛྲཱི་བྷ་ཝ།",
+      "iast": "vajrī bhava",
+      "wylie": "badzrI bha wa",
+      "phon": {
+        "tibetan": "benzi bhawa",
+        "sanskrit": "vajri bhava"
+      },
+      "phonZh": "班即 巴瓦",
+      "phonPinyin": "bān jí bā wǎ",
+      "gloss": {
+        "en": "make me a vajra-holder",
+        "zh": "令我成为持金刚者"
+      },
+      "syllables": [
+        {
+          "tib": "བཛྲཱི",
+          "wylie": "badzrI",
+          "iast": "vajrī",
+          "phon": {
+            "tibetan": "benzi",
+            "sanskrit": "vajri"
+          },
+          "phonZh": "班即",
+          "phonPinyin": "bān jí",
+          "stack": {
+            "parts": [
+              "བ",
+              "ཛ",
+              "ྲ",
+              "ཱ",
+              "ི"
+            ],
+            "note": {
+              "en": "vajra with long ī (a-chung + gigu) = \"vajrī\". Chanted \"benzi\".",
+              "zh": "vajra 加长音 ī（ཱ + ི）= \"vajrī\"，念作 \"benzi\"。"
+            }
+          },
+          "word": {
+            "tib": "བཛྲཱི",
+            "iast": "vajrī",
+            "gloss": {
+              "en": "vajrī — vajra-holder, one who has the vajra nature",
+              "zh": "持金刚者"
+            }
+          }
+        },
+        {
+          "tib": "བྷ",
+          "wylie": "bha",
+          "iast": "bha",
+          "phon": {
+            "tibetan": "bha",
+            "sanskrit": "bha"
+          },
+          "phonZh": "巴",
+          "phonPinyin": "bā",
+          "stack": {
+            "parts": [
+              "བ",
+              "ྷ"
+            ],
+            "note": {
+              "en": "ba + subjoined ha = aspirated Sanskrit \"bha\".",
+              "zh": "བ + 下加 ཧ = 送气的梵文 \"bha\"。"
+            }
+          },
+          "word": {
+            "tib": "བྷ་ཝ",
+            "iast": "bhava",
+            "gloss": {
+              "en": "bhava — become",
+              "zh": "成为"
+            }
+          }
+        },
+        {
+          "tib": "ཝ",
+          "wylie": "wa",
+          "iast": "va",
+          "phon": {
+            "tibetan": "wa",
+            "sanskrit": "va"
+          },
+          "phonZh": "瓦",
+          "phonPinyin": "wǎ",
+          "word": {
+            "tib": "བྷ་ཝ",
+            "iast": "bhava",
+            "gloss": {
+              "en": "bhava — become",
+              "zh": "成为"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p16",
+      "tib": "མ་ཧཱ་ས་མ་ཡ་སཏྭ།",
+      "iast": "mahāsamayasattva",
+      "wylie": "ma hA sa ma ya sat+wa",
+      "phon": {
+        "tibetan": "maha samaya sato",
+        "sanskrit": "maha samaya sattva"
+      },
+      "phonZh": "玛哈 萨玛雅 萨埵",
+      "phonPinyin": "mǎ hā sà mǎ yǎ sà duǒ",
+      "gloss": {
+        "en": "great being of the sacred bond",
+        "zh": "大誓言勇识"
+      },
+      "syllables": [
+        {
+          "tib": "མ",
+          "wylie": "ma",
+          "iast": "ma",
+          "phon": {
+            "tibetan": "ma",
+            "sanskrit": "ma"
+          },
+          "phonZh": "玛",
+          "phonPinyin": "mǎ",
+          "word": {
+            "tib": "མ་ཧཱ",
+            "iast": "mahā",
+            "gloss": {
+              "en": "mahā — great",
+              "zh": "大"
+            }
+          }
+        },
+        {
+          "tib": "ཧཱ",
+          "wylie": "hA",
+          "iast": "hā",
+          "phon": {
+            "tibetan": "ha",
+            "sanskrit": "hā"
+          },
+          "phonZh": "哈",
+          "phonPinyin": "hā",
+          "stack": {
+            "parts": [
+              "ཧ",
+              "ཱ"
+            ],
+            "note": {
+              "en": "ha + a-chung = long \"hā\".",
+              "zh": "ཧ + 长音符 ཱ = 长音 \"hā\"。"
+            }
+          },
+          "word": {
+            "tib": "མ་ཧཱ",
+            "iast": "mahā",
+            "gloss": {
+              "en": "mahā — great",
+              "zh": "大"
+            }
+          }
+        },
+        {
+          "tib": "ས",
+          "wylie": "sa",
+          "iast": "sa",
+          "phon": {
+            "tibetan": "sa",
+            "sanskrit": "sa"
+          },
+          "phonZh": "萨",
+          "phonPinyin": "sà",
+          "word": {
+            "tib": "ས་མ་ཡ",
+            "iast": "samaya",
+            "gloss": {
+              "en": "samaya — sacred commitment",
+              "zh": "三昧耶、誓言"
+            }
+          }
+        },
+        {
+          "tib": "མ",
+          "wylie": "ma",
+          "iast": "ma",
+          "phon": {
+            "tibetan": "ma",
+            "sanskrit": "ma"
+          },
+          "phonZh": "玛",
+          "phonPinyin": "mǎ",
+          "word": {
+            "tib": "ས་མ་ཡ",
+            "iast": "samaya",
+            "gloss": {
+              "en": "samaya — sacred commitment",
+              "zh": "三昧耶、誓言"
+            }
+          }
+        },
+        {
+          "tib": "ཡ",
+          "wylie": "ya",
+          "iast": "ya",
+          "phon": {
+            "tibetan": "ya",
+            "sanskrit": "ya"
+          },
+          "phonZh": "雅",
+          "phonPinyin": "yǎ",
+          "word": {
+            "tib": "ས་མ་ཡ",
+            "iast": "samaya",
+            "gloss": {
+              "en": "samaya — sacred commitment",
+              "zh": "三昧耶、誓言"
+            }
+          }
+        },
+        {
+          "tib": "སཏྭ",
+          "wylie": "sat+wa",
+          "iast": "sattva",
+          "phon": {
+            "tibetan": "sato",
+            "sanskrit": "sattva"
+          },
+          "phonZh": "萨埵",
+          "phonPinyin": "sà duǒ",
+          "stack": {
+            "parts": [
+              "ས",
+              "ཏ",
+              "ྭ"
+            ],
+            "note": {
+              "en": "sa + ta with subjoined wa (wa-zur) = Sanskrit \"sattva\". Chanted \"sato\".",
+              "zh": "ས + ཏ 加下加字 ཝ（wa-zur）= 梵文 \"sattva\"，念作 \"sato\"（萨埵）。"
+            }
+          },
+          "word": {
+            "tib": "སཏྭ",
+            "iast": "sattva",
+            "gloss": {
+              "en": "sattva — being, hero",
+              "zh": "萨埵、勇识"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "p17",
+      "tib": "ཨཱཿ།",
+      "iast": "āḥ",
+      "wylie": "AH",
+      "phon": {
+        "tibetan": "ah",
+        "sanskrit": "ah"
+      },
+      "phonZh": "阿",
+      "phonPinyin": "ā",
+      "gloss": {
+        "en": "āḥ",
+        "zh": "阿"
+      },
+      "syllables": [
+        {
+          "tib": "ཨཱཿ",
+          "wylie": "AH",
+          "iast": "āḥ",
+          "phon": {
+            "tibetan": "ah",
+            "sanskrit": "āh"
+          },
+          "phonZh": "阿",
+          "phonPinyin": "ā",
+          "stack": {
+            "parts": [
+              "ཨ",
+              "ཱ",
+              "ཿ"
+            ],
+            "note": {
+              "en": "a + a-chung + visarga = \"āḥ\".",
+              "zh": "ཨ + 长音符 + 止声符 = \"āḥ\"。"
+            }
+          },
+          "word": {
+            "tib": "ཨཱཿ",
+            "iast": "āḥ",
+            "gloss": {
+              "en": "āḥ — seed syllable of enlightened speech; seals the mantra",
+              "zh": "阿——语的种子字，封印此咒"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

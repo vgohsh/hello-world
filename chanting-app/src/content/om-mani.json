@@ -1,0 +1,183 @@
+{
+  "id": "om-mani",
+  "title": {
+    "en": "Om Mani Padme Hung (lesson 0)",
+    "zh": "六字大明咒（第0课）",
+    "bo": "ཡིག་དྲུག་མ།"
+  },
+  "kind": "mantra",
+  "level": 0,
+  "description": {
+    "en": "The six-syllable mantra of Avalokiteśvara (Chenrezig), Buddha of compassion. A short first lesson that shows how the lessons work.",
+    "zh": "观世音菩萨（大悲观音）的六字真言。短小的第一课，帮你熟悉课程的用法。"
+  },
+  "practiceNotes": {
+    "en": "Recite while visualizing Avalokiteśvara (Chenrezig), white with four arms, radiating compassion to all beings. Each of the six syllables is traditionally linked to purifying one of the six realms of existence.",
+    "zh": "持诵时观想四臂观音，身白色，向一切众生放射慈悲光明。传统上六字各对应净化六道中的一道。"
+  },
+  "audio": null,
+  "verified": false,
+  "verifyNotes": [
+    "Chinese phonetics and glosses need review by a teacher."
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "tib": "ཨོཾ་མ་ཎི་པདྨེ་ཧཱུྃ།",
+      "iast": "oṃ maṇi padme hūṃ",
+      "wylie": "oM ma Ni padme hU~M",
+      "phon": {
+        "tibetan": "om mani peme hung",
+        "sanskrit": "om mani padme hum"
+      },
+      "phonZh": "嗡 嘛呢 贝美 吽",
+      "phonPinyin": "wēng mā nī bèi měi hōng",
+      "gloss": {
+        "en": "Oṃ, the jewel in the lotus, hūṃ",
+        "zh": "嗡，莲花中的摩尼宝，吽"
+      },
+      "syllables": [
+        {
+          "tib": "ཨོཾ",
+          "wylie": "oM",
+          "iast": "oṃ",
+          "phon": {
+            "tibetan": "om",
+            "sanskrit": "om"
+          },
+          "phonZh": "嗡",
+          "phonPinyin": "wēng",
+          "stack": {
+            "parts": [
+              "ཨ",
+              "ོ",
+              "ཾ"
+            ],
+            "note": {
+              "en": "a + o vowel + anusvāra (nasal) = \"oṃ\".",
+              "zh": "ཨ + 元音 o + 随韵 ཾ = \"oṃ\"。"
+            }
+          },
+          "word": {
+            "tib": "ཨོཾ",
+            "iast": "oṃ",
+            "gloss": {
+              "en": "Oṃ — enlightened body, speech and mind",
+              "zh": "嗡——诸佛身语意"
+            }
+          }
+        },
+        {
+          "tib": "མ",
+          "wylie": "ma",
+          "iast": "ma",
+          "phon": {
+            "tibetan": "ma",
+            "sanskrit": "ma"
+          },
+          "phonZh": "嘛",
+          "phonPinyin": "mā",
+          "word": {
+            "tib": "མ་ཎི",
+            "iast": "maṇi",
+            "gloss": {
+              "en": "maṇi — jewel: method, compassion",
+              "zh": "摩尼宝——方便、慈悲"
+            }
+          }
+        },
+        {
+          "tib": "ཎི",
+          "wylie": "Ni",
+          "iast": "ṇi",
+          "phon": {
+            "tibetan": "ni",
+            "sanskrit": "ni"
+          },
+          "phonZh": "呢",
+          "phonPinyin": "nī",
+          "stack": {
+            "parts": [
+              "ཎ",
+              "ི"
+            ],
+            "note": {
+              "en": "retroflex ṇa (a reversed na, Sanskrit only) + i = \"ṇi\".",
+              "zh": "ཎ（反写 na，卷舌 ṇa）+ 元音 i = \"ṇi\"。"
+            }
+          },
+          "word": {
+            "tib": "མ་ཎི",
+            "iast": "maṇi",
+            "gloss": {
+              "en": "maṇi — jewel: method, compassion",
+              "zh": "摩尼宝——方便、慈悲"
+            }
+          }
+        },
+        {
+          "tib": "པདྨེ",
+          "wylie": "padme",
+          "iast": "padme",
+          "phon": {
+            "tibetan": "peme",
+            "sanskrit": "padme"
+          },
+          "phonZh": "贝美",
+          "phonPinyin": "bèi měi",
+          "stack": {
+            "parts": [
+              "པ",
+              "ད",
+              "ྨ",
+              "ེ"
+            ],
+            "note": {
+              "en": "pa + da stacked over ma + e = Sanskrit \"padme\". Tibetans chant \"peme\".",
+              "zh": "པ + ད 叠 མ + 元音 e = 梵文 \"padme\"，藏人念作 \"peme\"（贝美）。"
+            }
+          },
+          "word": {
+            "tib": "པདྨེ",
+            "iast": "padme",
+            "gloss": {
+              "en": "padme — in the lotus: wisdom",
+              "zh": "莲花中——智慧"
+            }
+          }
+        },
+        {
+          "tib": "ཧཱུྃ",
+          "wylie": "hU~M",
+          "iast": "hūṃ",
+          "phon": {
+            "tibetan": "hung",
+            "sanskrit": "hūm"
+          },
+          "phonZh": "吽",
+          "phonPinyin": "hōng",
+          "stack": {
+            "parts": [
+              "ཧ",
+              "ཱ",
+              "ུ",
+              "ྃ"
+            ],
+            "note": {
+              "en": "ha + a-chung (long vowel) + u + nāda-bindu (ྃ, nasal) = \"hūṃ\". Chanted \"hung\".",
+              "zh": "ཧ + 长音符 ཱ + 元音 u + 月点 ྃ（鼻音）= \"hūṃ\"，念作 \"hung\"（吽）。"
+            }
+          },
+          "word": {
+            "tib": "ཧཱུྃ",
+            "iast": "hūṃ",
+            "gloss": {
+              "en": "hūṃ — union of method and wisdom",
+              "zh": "吽——方便与智慧双运"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
